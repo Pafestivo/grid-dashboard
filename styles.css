@@ -52,7 +52,7 @@ body {
   display: flex;
   gap: 25px;
   align-items: center;
-  padding: 12px 10px 10px 120px;
+  padding: 12px 10px 10px 130px;
 }
 
 .fa-bell {
@@ -110,6 +110,31 @@ body {
   font-size: 1.3rem;
 }
 /* /greet */
+
+/* actions */
+.actions {
+  display: flex;
+  gap: 20px;
+}
+
+.actions button {
+  background-color: #1992d4;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  height: 40px;
+  width: 130px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.actions a {
+  height: max-content;
+  align-self: center;
+}
+
+/* actions */
 
 /* sidebar */
 .sidebar {
