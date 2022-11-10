@@ -10,14 +10,12 @@ body {
 
 .grid-container {
   display: grid;
-  min-height: 100vh;
-  grid-template-columns: 1fr 5fr;
-  grid-template-rows: 1fr 4fr;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 6fr;
 }
 
 .header {
   background-color: white;
-  grid-area: 1 / 2 / 2 / 3;
 }
 
 .sidebar {
@@ -27,5 +25,4 @@ body {
 
 .main-content {
   background-color: #e2e8f0;
-  grid-area: 2 / 2 / 3 / 3
 }

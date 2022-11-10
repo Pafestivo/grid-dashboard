@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', serif;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.header {
+  background-color: red;
+}
+
+.sidebar {
+  background-color: #1992d4;
+}
+
+.main-content {
+  background-color: green;
+}

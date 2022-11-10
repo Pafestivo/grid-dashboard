@@ -22,10 +22,9 @@ body {
 
 .sidebar {
   background-color: #1992d4;
-  grid-area: 1 / 1 / 3 / 2;
+  grid-area: 1 / 1 / 4 / 2;
 }
 
 .main-content {
   background-color: #e2e8f0;
-  grid-area: 2 / 2 / 3 / 3
 }
