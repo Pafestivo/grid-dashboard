@@ -12,7 +12,7 @@ body {
   display: grid;
   min-height: 100vh;
   grid-template-columns: minmax(max-content, 300px) 1fr;
-  grid-template-rows: 1fr 4fr;
+  grid-template-rows: 200px 1fr;
 }
 
 /* header */
@@ -197,6 +197,7 @@ a {
   grid-area: 2 / 2 / 3 / 3;
   display: grid;
   grid-template-columns: 1fr 450px;
+  padding-bottom: 50px;
 }
 
 /* projects area */
