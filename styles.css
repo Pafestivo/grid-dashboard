@@ -69,7 +69,7 @@ body {
 }
 
 .pfp1 {
-  background: url(/images/dog2.jpg);
+  background: url(./images/dog2.jpg);
   clip-path: circle();
   background-size: contain;
   height: 50px;
@@ -336,20 +336,20 @@ a {
 }
 
 .pfp2 {
-  background: url(/images/dog1.jpg);
+  background: url(./images/dog1.jpg);
 }
 
 .pfp3 {
-  background: url(/images/dog2.jpg);
+  background: url(./images/dog2.jpg);
 }
 
 .pfp4 {
-  background: url(/images/dog4.jpg);
+  background: url(./images/dog4.jpg);
   background-position-y: -20px;
 }
 
 .pfp5 {
-  background: url(/images/dog3.jpg);
+  background: url(./images/dog3.jpg);
   background-position-y: -15px;
 }
 
