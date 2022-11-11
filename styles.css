@@ -340,8 +340,7 @@ a {
 }
 
 .pfp3 {
-  background: url(/images/dog3.jpg);
-  background-position-y: -15px;
+  background: url(/images/dog2.jpg);
 }
 
 .pfp4 {
@@ -350,7 +349,8 @@ a {
 }
 
 .pfp5 {
-  background: url(/images/dog2.jpg);
+  background: url(/images/dog3.jpg);
+  background-position-y: -15px;
 }
 
 .pfp2,
