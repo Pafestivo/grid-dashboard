@@ -281,7 +281,7 @@ a {
   padding: 0 0 10px 0;
 }
 
-.side-box {
+.side-box1 {
   background-color: white;
   display: grid;
   grid-template-rows: repeat(3, max-content);
@@ -317,21 +317,49 @@ a {
   padding: 35px 0 10px 0;
 }
 
+.side-box2 {
+  background-color: white;
+  display: grid;
+  grid-template-rows: repeat(4, max-content);
+  width: 400px;
+  height: max-content;
+  padding: 20px 40px 20px 40px;
+}
+
 .trend {
   display: grid;
-  height: 100px;
+  height: 80px;
   grid-template-columns: 60px 1fr;
   grid-template-rows: 1fr 1fr;
   align-items: center;
   column-gap: 15px;
-  row-gap: 2px;
 }
 
 .pfp2 {
   background: url(/images/dog1.jpg);
+}
+
+.pfp3 {
+  background: url(/images/dog3.jpg);
+  background-position-y: -15px;
+}
+
+.pfp4 {
+  background: url(/images/dog4.jpg);
+  background-position-y: -20px;
+}
+
+.pfp5 {
+  background: url(/images/dog2.jpg);
+}
+
+.pfp2,
+.pfp3,
+.pfp4,
+.pfp5 {
   clip-path: circle();
-  background-size: cover;
   grid-area: 1 / 1 / 3 / 2;
+  background-size: cover;
   height: 60px;
   width: 60px;
   border-radius: 40px;
