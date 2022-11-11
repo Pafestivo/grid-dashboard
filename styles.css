@@ -268,12 +268,13 @@ a {
 /* side-content */
 .side-content {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: repeat(2, 500px);
 }
 /* announcements area */
 .ann {
   display: grid;
   grid-template-rows: 60px 1fr;
+  height: max-content;
 }
 
 .ann > p:nth-child(1) {
@@ -281,29 +282,71 @@ a {
 }
 
 .side-box {
-  border: 2px solid black;
+  background-color: white;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, max-content);
   width: 400px;
+  gap: 20px;
+  height: max-content;
+  padding: 20px 40px 0 40px;
 }
 
 .ann-row {
-  border: 1px solid black;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.6);
+  height: max-content;
+  padding-bottom: 20px;
+}
+
+.ann-row:last-child {
+  border-bottom: none;
+}
+
+.ann-row > .title {
+  font-size: 1.2rem;
+  padding-bottom: 3px;
+}
+
+.ann-row > .description {
+  font-size: 1.1rem;
+  padding-right: 5px;
 }
 /* /announcements-area */
 
 /* trending area */
-.trending {
-}
-
 .trending > p:nth-child(1) {
   padding: 35px 0 10px 0;
 }
 
 .trend {
+  display: grid;
   height: 100px;
-  border: 1px solid black;
+  grid-template-columns: 60px 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  column-gap: 15px;
+  row-gap: 2px;
 }
+
+.pfp2 {
+  background: url(/images/dog1.jpg);
+  clip-path: circle();
+  background-size: cover;
+  grid-area: 1 / 1 / 3 / 2;
+  height: 60px;
+  width: 60px;
+  border-radius: 40px;
+}
+
+.trend > p:first-of-type {
+  align-self: end;
+  font-size: 1.1rem;
+}
+
+.trend > p:last-of-type {
+  align-self: start;
+  color: grey;
+}
+
 /* /trending area */
 
 
